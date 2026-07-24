@@ -9,7 +9,7 @@ This project demonstrates the complete analytics workflow—from data cleaning a
 ## 📊 Dashboard Preview
 
 
-![Dashboard Preview](images/Dashboard.png)
+![Dashboard Preview](Images/Dashboard.png)
 
 ---
 
