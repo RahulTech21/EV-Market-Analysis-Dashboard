@@ -8,9 +8,8 @@ This project demonstrates the complete analytics workflow—from data cleaning a
 
 ## 📊 Dashboard Preview
 
-> *(Add your dashboard screenshot here)*
 
-![Dashboard Preview](images/dashboard.png)
+![Dashboard Preview](images/Dashboard.png)
 
 ---
 
