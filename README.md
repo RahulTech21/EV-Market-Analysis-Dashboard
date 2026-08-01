@@ -218,6 +218,12 @@ Global-EV-Market-Analysis
 - Comparative Analysis
 - Business Storytelling
 
+- ## 📑 Project Presentation
+
+A presentation summarizing the project objectives, methodology, dashboard walkthrough, key insights, and business recommendations is included in the repository.
+
+📂 **Location:** `Presentation/Global_EV_Market_Analysis.pdf`
+
 ---
 
 # 🚀 Future Improvements
