@@ -10,11 +10,11 @@ The project follows a complete analytics workflow—from data cleaning and prepr
 
 ## Executive Dashboard
 
-![Executive Dashboard](dashboard-Images/Dashboard1.png)
+![Executive Dashboard](dashboard-images/Dashboard1.png)
 
 ## Detailed Market Analysis
 
-![Detailed Market Analysis](dashboard-Images/Dashboard2.png)
+![Detailed Market Analysis](dashboard-images/Dashboard2.png)
 
 ---
 
