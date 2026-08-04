@@ -232,7 +232,6 @@ A presentation summarizing the project objectives, methodology, dashboard walkth
 - Forecasting EV market growth
 - Geographic map visualization
 - Drill-through reports
-- Tooltip pages
 - AI-powered insights
 - Additional market KPIs
 
