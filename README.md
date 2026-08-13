@@ -58,7 +58,7 @@ Provides deeper market analysis through:
 * Key Market Snapshot
 * Region/Country and Powertrain filters
 
-![Market Intelligence](screenshots/market-intelligence.png)
+![Market Intelligence](Images/Intelligence-Dashboard.png)
 
 ### Page 3 — Key Insights
 
