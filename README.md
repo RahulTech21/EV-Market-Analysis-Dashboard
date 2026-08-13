@@ -1,253 +1,139 @@
-# 🚗 Global Electric Vehicle Market Analysis Dashboard
+# Global Electric Vehicle Market Analysis
 
-A professional end-to-end **Data Analytics & Business Intelligence** project built using **Python** and **Microsoft Power BI** to analyze the growth of the global Electric Vehicle (EV) market from **2010–2025**.
+## 📊 Project Overview
 
-The project follows a complete analytics workflow—from data cleaning and preprocessing in Python to building an interactive two-page Power BI dashboard for executive reporting and detailed market exploration.
+An end-to-end data analytics project analyzing the global electric vehicle (EV) market using historical and projected market data.
 
----
+The project explores EV sales, EV stock, market share, powertrain adoption, country-level performance, regional contribution, year-over-year growth, and charging infrastructure.
 
-# 📊 Dashboard Preview
+The analysis was transformed into a 3-page interactive Power BI dashboard designed to communicate market trends and strategic insights.
 
-## Executive Dashboard
+## 🎯 Business Questions
 
-![Executive Dashboard](dashboard-images/Dashboard1.png)
+* How has the global EV market evolved over time?
+* Which countries dominate EV sales?
+* Which powertrains are driving EV adoption?
+* Which regions contribute most to the global EV market?
+* How quickly is EV sales growing?
+* How is charging infrastructure developing alongside EV adoption?
+* Which markets present strong growth opportunities?
 
-## Detailed Market Analysis
+## 🛠️ Tools & Technologies
 
-![Detailed Market Analysis](dashboard-images/Dashboard2.png)
+* **Python** — Data cleaning and exploratory analysis
+* **Pandas** — Data manipulation and transformation
+* **Matplotlib** — Exploratory visualization
+* **Power BI** — Interactive dashboard development
+* **DAX** — Measures and calculated metrics
+* **Excel** — Source data and data preparation
 
----
+## 📈 Power BI Dashboard
 
-# 🎯 Project Objective
+### Page 1 — Executive Overview
 
-The objective of this project is to analyze global Electric Vehicle adoption trends and provide meaningful business insights through interactive dashboards.
+Provides a high-level view of:
 
-The report enables users to:
+* Global EV Sales
+* Global EV Stock
+* EV Sales Share
+* Charging Infrastructure
+* Global EV Sales Trend
+* Major EV Market Comparison
+* Top EV Markets
+* BEV vs PHEV Distribution
+* Year-over-Year EV Sales Growth
 
-- Analyze historical EV market growth
-- Track global EV sales and stock
-- Identify leading EV markets
-- Compare major EV countries
-- Explore regional EV trends
-- Analyze powertrain adoption
-- Drill into market-level historical data
+![Executive Overview](screenshots/executive-overview.png)
 
----
+### Page 2 — Market Intelligence
 
-# 🛠 Tech Stack
+Provides deeper market analysis through:
 
-## Data Preparation
+* EV Sales Trend
+* EV Stock Trend
+* Powertrain Sales Distribution
+* China vs USA vs India comparison
+* Country-level market contribution
+* Regional EV sales
+* Key Market Snapshot
+* Region/Country and Powertrain filters
 
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
+![Market Intelligence](screenshots/market-intelligence.png)
 
-## Data Visualization
+### Page 3 — Key Insights
 
-- Microsoft Power BI
-- Power Query
-- DAX
+Summarizes the major findings from the analysis, including:
 
-## Data Source
+* Global EV market growth
+* China's market leadership
+* BEV dominance
+* High-growth markets
+* Regional market concentration
+* Charging infrastructure expansion
+* Strategic implications
 
-- International Energy Agency (IEA)
-- Global EV Outlook Dataset
+![Key Insights](screenshots/key-insights.png)
 
----
+## 🔍 Key Insights
 
-# 🔄 Project Workflow
+### Global EV Growth
 
-## 1. Data Collection
+Global EV sales reached approximately **21 million vehicles in 2025**, demonstrating the continued acceleration of EV adoption.
 
-- Imported the Global EV Outlook dataset from the International Energy Agency (IEA).
+### China Leads the Market
 
----
+China represents the largest share of global EV sales, significantly ahead of other major markets.
 
-## 2. Data Cleaning & Transformation (Python)
+### BEVs Dominate
 
-Performed extensive preprocessing using Python:
+Battery Electric Vehicles represent the majority of EV sales, highlighting the continued shift toward fully electric mobility.
 
-- Removed irrelevant records
-- Filtered historical EV data
-- Cleaned missing values
-- Selected important business parameters
-- Standardized data structure
-- Exported analysis-ready dataset for Power BI
+### Regional Concentration
 
----
+Asia Pacific remains the dominant regional EV market, reinforcing its importance to global EV adoption.
 
-## 3. Data Modeling (Power BI)
+### Charging Infrastructure
 
-- Built relationships
-- Created DAX measures
-- Optimized model
-- Configured slicer interactions
+The expansion of charging infrastructure is supporting the continued growth of electric mobility.
 
----
-
-## 4. Dashboard Development
-
-Designed a professional two-page interactive dashboard focused on Executive Reporting and Market Exploration.
-
----
-
-# 📄 Dashboard Overview
-
-## 📌 Page 1 — Executive Dashboard
-
-Provides a high-level overview of the global EV market.
-
-### Features
-
-- Global EV Sales KPI
-- Global EV Stock KPI
-- EV Sales Share (%)
-- Global EV Sales Trend (2010–2025)
-- Top EV Markets
-- Global Powertrain Distribution
-- Major EV Markets Comparison
-- Executive Navigation
-
----
-
-## 📌 Page 2 — Detailed Market Analysis
-
-Allows users to perform detailed market exploration.
-
-### Features
-
-- Region / Country slicer
-- Powertrain slicer
-- EV Sales Trend
-- EV Stock Trend
-- Powertrain Sales Distribution
-- Major EV Markets Comparison
-- Selected Market Data
-- Business Insights Panel
-- Interactive Navigation
-
----
-
-# 📈 Key Dashboard Metrics
-
-- Global EV Sales
-- Global EV Stock
-- EV Sales Share (%)
-- Historical Sales Trend
-- Historical Stock Trend
-- Country-wise Market Analysis
-- Powertrain Distribution
-
----
-
-# 💡 Key Business Insights
-
-- China remains the world's largest EV market throughout the analysis period.
-- Global EV adoption accelerated rapidly after 2020.
-- Battery Electric Vehicles (BEVs) dominate passenger EV sales.
-- EV stock has shown strong year-over-year growth.
-- India has emerged as one of the fastest-growing EV markets.
-- Interactive exploration allows market analysis by Region and Powertrain.
-
----
-
-# 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
-Global-EV-Market-Analysis
-
+global-ev-market-analysis/
 │
-├── Global_EV_Market_Analysis.pbix
-├── EV_Cleaned_Data.xlsx
-├── README.md
+├── dashboard/
+│   └── Global_EV_Market_Analysis.pbix
 │
-├── Python
-│   └── data_cleaning.ipynb
+├── data/
+│   └── Global_EV_Data.xlsx
 │
-└── Images
-    ├── Dashboard1.png
-    └── Dashboard2.png
+├── python/
+│   ├── EV_Data_Analysis.ipynb
+│   └── EV_Data_Cleaning.py
+│
+├── screenshots/
+│   ├── executive-overview.png
+│   ├── market-intelligence.png
+│   └── key-insights.png
+│
+├── docs/
+│   └── project-notes.md
+│
+└── README.md
 ```
 
----
+## 🚀 How to Explore
 
-# 🎨 Dashboard Highlights
+1. Download or clone the repository.
+2. Open the Power BI `.pbix` file using Power BI Desktop.
+3. Explore the three dashboard pages.
+4. Use the available filters to analyze different markets and powertrains.
+5. Review the Key Insights page for the main findings.
 
-- Professional Executive Dashboard
-- Detailed Market Analysis Page
-- Interactive Navigation Buttons
-- Executive KPI Cards
-- Business Storytelling
-- Interactive Slicers
-- Custom DAX Measures
-- Professional Color Theme
-- Clean Corporate Layout
-- Portfolio Ready Design
+## 📌 Project Outcome
 
----
+This project demonstrates an end-to-end analytics workflow:
 
-# 📚 Skills Demonstrated
+**Raw Data → Python Analysis → Data Preparation → DAX Measures → Power BI Dashboard → Business Insights**
 
-### Data Analytics
-
-- Data Cleaning
-- Data Transformation
-- Exploratory Data Analysis
-
-### Python
-
-- Pandas
-- NumPy
-- Data Preprocessing
-
-### Power BI
-
-- Data Modeling
-- Power Query
-- DAX
-- Interactive Dashboards
-- KPI Development
-- Slicer Interactions
-- Business Intelligence Reporting
-
-### Visualization
-
-- Executive Dashboard Design
-- Trend Analysis
-- Comparative Analysis
-- Business Storytelling
-
-
-### 📑 Project Presentation
-
-A presentation summarizing the project objectives, methodology, dashboard walkthrough, key insights, and business recommendations is included in the repository.
-
-📂 **Location:** `Presentation/Rahul_Jadhav_Global_EV_Market_Analysis.pdf`
-
----
-
-# 🚀 Future Improvements
-
-- Forecasting EV market growth
-- Geographic map visualization
-- Drill-through reports
-- AI-powered insights
-- Additional market KPIs
-
----
-
-# 👨‍💻 Author
-
-## Rahul Jadhav
-
-Aspiring Data Analyst passionate about transforming raw data into meaningful business insights using **Python, SQL, Power BI, and Excel**.
-
-📧 **Email:** rahuljad921@gmail.com
-
-🔗 **LinkedIn:**  
-https://www.linkedin.com/in/rahul-jadhav29
-
----
-
-## ⭐ If you found this project useful, consider giving this repository a Star!
+The project focuses on converting complex EV market data into an interactive and recruiter-friendly analytical story.
