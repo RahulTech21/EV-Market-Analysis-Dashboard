@@ -72,7 +72,7 @@ Summarizes the major findings from the analysis, including:
 * Charging infrastructure expansion
 * Strategic implications
 
-![Key Insights](screenshots/key-insights.png)
+![Key Insights](Images/Key-Insights.png)
 
 ## 🔍 Key Insights
 
