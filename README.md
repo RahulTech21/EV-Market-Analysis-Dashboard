@@ -104,7 +104,7 @@ global-ev-market-analysis/
 ├── dashboard/
 │   └── Global_EV_Market_Analysis.pbix
 │
-├── data/
+├── dataset/
 │   └── Global_EV_Data.xlsx
 │
 ├── python/
@@ -112,12 +112,12 @@ global-ev-market-analysis/
 │   └── EV_Data_Cleaning.py
 │
 ├── screenshots/
-│   ├── executive-overview.png
-│   ├── market-intelligence.png
+│   ├── executive-dashboard.png
+│   ├── intelligence-dashboard.png
 │   └── key-insights.png
 │
-├── docs/
-│   └── project-notes.md
+├── Presentation/
+│   └── 
 │
 └── README.md
 ```
