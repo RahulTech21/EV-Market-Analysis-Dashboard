@@ -43,7 +43,7 @@ Provides a high-level view of:
 * BEV vs PHEV Distribution
 * Year-over-Year EV Sales Growth
 
-![Executive Overview](Images/Executive Dashboard.png)
+![Executive Overview](Images/ExecutiveDashboard.png)
 
 ### Page 2 — Market Intelligence
 
